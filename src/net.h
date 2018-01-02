@@ -100,6 +100,7 @@ public:
 /** Thread types */
 enum threadId
 {
+    THREAD_TORNET,
     THREAD_SOCKETHANDLER,
     THREAD_OPENCONNECTIONS,
     THREAD_MESSAGEHANDLER,
